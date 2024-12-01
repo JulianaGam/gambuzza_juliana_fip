@@ -823,3 +823,97 @@ a:hover {
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px}
+    
+    /* ----------------------------Rooms Page---------------------------- */
+#rooms_hero{ background: url(../images/images_cr/mob_rooms/mob_rooms_1.jpg) no-repeat;
+    height: 230px;}
+
+.list_rooms_info{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    list-style: none; 
+    padding: 0; }
+
+.list_rooms_info li::before{
+    content: "•";     
+    color: #9a2018; 
+    font-size: 16px;
+    margin-right: 10px}
+
+#rooms_section_1{
+    background: url(../images/images_cr/mob_rooms/mob_rooms_section_2.jpg) no-repeat;
+    height: 240px;   }
+
+#rooms_section_1_box{
+    align-self: flex-end;}
+
+#room-section1-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+
+#room_section_2{
+    background: url(../images/images_cr/mob_rooms/mob_rooms_section_3.jpg) no-repeat;
+    height: 240px; }
+
+#room_section_2_box{
+    align-self: flex-end;}
+
+#room_section_2_summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+
+#exclusive_rooms_dropdown{
+    margin-top: 20px;}
+
+#masters_section_3{
+    background: url(../images/images_cr/mob_rooms/mob_rooms_section_4.jpg) no-repeat;
+    height: 240px; }
+
+#masters-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;  
+}
+
+#hero-heading-box-masters{
+    align-self: flex-end;}
+
+#room_section_4{
+    background: url(../images/images_cr/mob_rooms/mob_rooms_4.jpg) no-repeat;
+    height: 240px;
+}
+
+#hero-heading-box-exotic{
+    align-self: flex-end;}
+
+#exotics-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+
+#hero-heading-box-chalets{
+    align-self: flex-end;}
+
+#room_section_5{
+       background: url(../images/images_cr/mob_rooms/mob_rooms_5.jpg) no-repeat;
+        height: 240px}
+
+#chalets-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+
+#hero-heading-box-juniors{
+    align-self: flex-end;}
+
+#juniors-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+
+#room_section_6{
+    background: url(../images/images_cr/mob_rooms/mob_rooms_6.jpg) no-repeat;
+        height: 240px}
