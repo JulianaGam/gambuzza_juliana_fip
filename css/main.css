@@ -461,3 +461,108 @@ details div ul li a:hover {
     margin-bottom: 20px;
     line-height: 18px;
     font-size: 11px;}
+
+/* ----------------------------Spa page---------------------------- */
+/* 1. ---spa Hero Image--- */
+#spa_hero {
+    background: url(../images/images_cr/mob_spa/mob_spa_hero.jpg) no-repeat;
+    height: 220px;}
+
+ /*fondo blanco encima de la foto*/
+ .hero-img-h2, .hero-img-h3 {
+    background: #fff;
+    padding: 5px 15px;
+    font-size: 21px;}
+    
+.bold{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 0;
+    color: #9a2018;}
+
+
+
+#spa_section_1 {
+    background: url(../images/images_cr/mob_spa/mob_spa_1.jpg) no-repeat;
+    height: 220px;
+    align-items: end;}
+
+#spa_section_2{
+    background: url(../images/images_cr/mob_spa/mob_spa_3.jpg) no-repeat;
+    height: 220px;
+    align-items: end; }
+
+#spa-section1-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+
+#policies-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+
+#spa_section_3{
+    background: url(../images/images_cr/mob_spa/mob_spa_2.jpg) no-repeat;
+    height: 220px;
+    align-items: end; }
+    
+#circumstances-summary p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+
+    
+#spa_section_4{
+        background: url(../images/images_cr/mob_spa/mob_spa_4.jpg) no-repeat;
+        height: 220px;
+        align-items: end; }
+        
+#ontario-spa-summary p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;}
+
+a {color: #9a2018;}     
+a:hover {
+        text-decoration: underline; 
+        color: #4c0808; }
+
+#spa_award{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #282525;
+    text-decoration: underline;}
+
+#spa_section_5{
+        background: url(../images/images_cr/mob_spa/mob_spa_products.jpg) no-repeat;
+        height: 220px;
+        align-items: end; }
+        
+#products-summary p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;}
+        
+
+#checkbox_visit_spa .visit_spa [type="checkbox"]:checked + span {
+    text-decoration: underline;
+    color: #505050;
+    position: relative;}
+              
+#checkbox_visit_spa .visit_spa [type="checkbox"]:checked + span::after {
+    content: " 🧖🏼‍♀️ 🥳 🧖🏻‍♂️";
+    margin-left: 10px;
+    /*background just for the emojis*/
+    background: #9a2018; 
+    border-radius: 5px; 
+    padding: 8px 8px; 
+    display:inline;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+              
+#checkbox_visit_spa .visit_spa [type="checkbox"] + span {
+    text-decoration: none;
+    color: inherit;}
+    
