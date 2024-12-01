@@ -565,4 +565,261 @@ a:hover {
 #checkbox_visit_spa .visit_spa [type="checkbox"] + span {
     text-decoration: none;
     color: inherit;}
+
+/* ----------------------------Activities page---------------------------- */
+/* 1. --- Hero Image--- */
+#activities_hero{
+    background: url(../images/images_cr/mob_activities/mob_activities_hero.jpg) no-repeat;
+    height: 220px;  }
+#spring-section1-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
     
+/* Hide checkbox */
+#read_more_button {
+    display: none;}
+    
+/* read more button */
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9a2018;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    transition: all 0.3s ease; }
+    
+/* change color when courser is on top  */
+.read-more:hover {
+    background-color: rgb(196, 28, 28); }
+         
+    
+.read-more::after {
+    content: "Read More"; 
+    display: inline-block;
+    color: white;}
+    
+/* Change button text checked to read less */
+#read_more_button:checked + .read-more::after {
+    content: "Read Less";}
+    
+/* make text appear when checked */
+.more_info {
+    display: none;
+    margin-top: 15px;
+    clear: both; }
+    
+#read_more_button:checked + .read-more + .more_info {
+    display: block;}
+    
+#park_activities{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+    
+#fishing{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+#algonquin_lake{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;}
+    
+/* Spring activities */
+#spring_hero{
+    background: url(../images/images_cr/mob_activities/mob_activities_srping_section_hero.jpg) no-repeat;
+    height: 220px;  }
+
+#hero-spring-box{
+    align-self: end;}
+    
+#read_more_spring {
+    display: none;}    
+    
+/* change button text */
+#read_more_spring:checked + .read-more::after {
+    content: "Read Less";}
+    
+#read_more_spring:checked + .read-more + .more_info_spring {
+    display: block}
+    
+.more_info_spring {
+    display: none; 
+    margin-top: 20px;}
+
+#swimming{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#swimming_hero{
+    background:url(../images/images_cr/mob_activities/mob_activities_pool.jpg) no-repeat;
+    height: 200px;
+    margin-bottom: 0; }
+    
+#algoquin_hero{
+    background:url(../images/images_cr/mob_activities/mob_activities_park_spring.jpg) no-repeat;
+    height: 200px;
+    margin-bottom: 0;}
+
+#algoquin_spring{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+
+#motor_spring{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#pickleball_spring{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px }
+
+#kayak_spring{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px  }
+
+#hiking_spring{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px }
+    
+/* summer section */
+#summer_hero_img{
+    background: url(../images/images_cr/mob_activities/mob_activities_summer_hero.jpg) no-repeat;
+    height: 220px;  }
+
+#summer-hero-heading-box{
+    align-self: flex-end;}
+    
+#summer_summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#algoquin_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#motor_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#pickleball_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#kayak_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px }
+    
+#hiking_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#other_summer{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+/* fall section */
+#fall_hero_img{
+    background: url(../images/images_cr/mob_activities/mob_activities_fall_hero.jpg) no-repeat;
+    height: 220px;  }
+#fall-hero-heading-box{
+    align-self: flex-end;}
+    
+#fall-section-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+    
+/* button read more/less */
+#read_more_fall {
+    display: none;}
+    
+#read_more_fall:checked + .read-more::after {
+    content: "Read Less";}
+    
+#read_more_fall:checked + .read-more + .more_info_fall {
+    display: block;}
+    
+.more_info_fall {
+    display: none;
+    margin-top: 15px;}
+    
+#activities_fall{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#motor_fall{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#pickleball_fall{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#riding_fall{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px} 
+    
+#hiking_fall{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+/* winter section */
+#winter_hero_img{
+    background: url(../images/images_cr/mob_activities/mob_activities_winter_hero.jpg) no-repeat;
+    height: 220px;  }
+#winter-hero-heading-box{
+        align-self: flex-end;}
+    
+#winter-section-summary{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#wilderness_winter{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px  }
+    
+#skiing_winter{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#ice_winter{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px  }
+    
+#algoquin_winter{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
+    
+#activities_winter{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px}
